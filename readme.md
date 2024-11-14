@@ -8,6 +8,7 @@ Made as a technical test for Punto De Pago.
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [API Endpoints](#api-endpoints)
+- [How To Use](#How-To-Use)
 
 ## Technologies
 
@@ -66,5 +67,9 @@ Paris 1 day city response Example:
    {"dt":1731927600,"date":"2024-11-18","temp":{"min":7.57,"max":10.85},"weather":[{"description":"lluvia ligera"}]}
 ]
 ```
+
+## How To Use
+
+You can either run this SpringBott application and consume the endpoints with an HTTP client or you can use [this](https://github.com/FatFrogDev/punto-de-pago-front) frontEnd app made with Angular.
 
 Made with ❤️ by [FatFrogDev](https://github.com/FatFrogDev)
