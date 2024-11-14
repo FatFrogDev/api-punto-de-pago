@@ -35,8 +35,15 @@ Made as a technical test for Punto De Pago.
             key: MY_SECRET_API_KEY
     ```
 
-4. Run the application:
-    ```sh
+4. Configure CORS (Optional)
+   By default is set:
+    ``` java
+    @CrossOrigin(origins = "http://localhost:4200")
+   ```
+    You can change the origin in the `APIController.java` file in the `src/main/java/com/fatfrogdev/api/puntodepago/controller` directory if needed.
+
+5. Run the application:
+    ``` sh
     ./gradlew bootRun
     ```
 
